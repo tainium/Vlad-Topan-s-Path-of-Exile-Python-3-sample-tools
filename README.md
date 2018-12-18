@@ -1,5 +1,6 @@
 # Path of Exile sample Python 3 tools
 
+![WatchClip-Screenshot](img/clipwatch-screenshot.png)
 
 ## What
 
@@ -66,8 +67,6 @@ now worth $$$ exalts).
 **Note:** I am not sure whether the trade API (not the site, but the actual internal API used by
 the site) is intended to be used in tools. If not, please let me know & I'll remove the offending
 code.
-
-![WatchClip-Screenshot](../raw/master/img/clipwatch-screenshot.png)
 
 
 ## Feedback
