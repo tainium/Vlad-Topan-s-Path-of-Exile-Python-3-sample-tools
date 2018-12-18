@@ -9,7 +9,6 @@ import keyboard
 
 import os
 import re
-import sys
 
 
 VER = '0.1.0 (dec.2018)'
@@ -18,7 +17,7 @@ CMAP = {
     'cr': 'enter',
     }
 
-    
+
 def _text_sender(text):
     def _inner():
         for e in re.findall('\{[^\}]+\}|[^\{\}]+', text):
@@ -28,19 +27,19 @@ def _text_sender(text):
                     e = int(e)
                 else:
                     e = CMAP.get(e.lower(), e)
-                #print(f'Key: {e}')
+                # print(f'Key: {e}')
                 keyboard.send(e)
             else:
-                #print(f'Text: {e}')
+                # print(f'Text: {e}')
                 keyboard.write(e)
-    return _inner    
-    
-     
+    return _inner
+
+
 def add_macro(shortcut, text):
     print(f'[*] Adding macro {shortcut} -> {repr(text)}...')
     keyboard.add_hotkey(shortcut, _text_sender(text), suppress=True)
 
-    
+
 def load_macros():
     if not os.path.isfile('macros.txt'):
         print('[!] Rename macros.txt.sample to macros.txt and add macros to it!')
@@ -51,7 +50,7 @@ def load_macros():
         add_macro(*m.split('|',1))
 
 
-if __name__ == '__main__':        
-    print('[*] Waiting for Ctrl+C to stop...')    
+if __name__ == '__main__':
+    print('[*] Waiting for Ctrl+C to stop...')
     load_macros()
     keyboard.wait()
