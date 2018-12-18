@@ -1,0 +1,15 @@
+# see https://www.pathofexile.com/trade/about for the full list
+Blessed Orb = blessed
+Cartographer's Chisel = chisel
+Divine Orb = divine
+Eternal Orb = ete
+Exalted Orb = exa
+Mirror of Kalandra = mir
+Orb of Fusing = fuse
+Orb of Regret = regret
+Orb of Scouring = scour
+Perandus Coin = p
+Regal Orb = regal
+Silver Coin = silver
+Vaal Orb  = vaal
+
