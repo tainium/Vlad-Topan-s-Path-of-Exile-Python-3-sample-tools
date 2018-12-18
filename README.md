@@ -67,6 +67,8 @@ now worth $$$ exalts).
 the site) is intended to be used in tools. If not, please let me know & I'll remove the offending
 code.
 
+![WatchClip-Screenshot](raw/master/img/clipwatch-screenshot.png)
+
 
 ## Feedback
 
