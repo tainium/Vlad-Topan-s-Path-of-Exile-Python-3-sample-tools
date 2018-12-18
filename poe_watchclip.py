@@ -8,7 +8,7 @@ Author: Vlad Ioan Topan (vtopan/gmail)
 import os
 import re
 import pprint
-from tkinter import Tk  # Windows only, for easy clipboard access
+from tkinter import Tk, TclError  # Windows only, for easy clipboard access
 import time
 
 import requests
@@ -135,6 +135,9 @@ def watch_clipboard():
     while 1:
         try:
             text = Tk().clipboard_get()
+        except TclError:     # ignore non-text clipboard contents
+            continue
+        try:
             if text != prev:
                 info = parse_item_info(text)
                 # pprint.pprint(info)
