@@ -47,7 +47,7 @@ def load_macros():
     for m in open('macros.txt'):
         if (not m.strip()) or m.lstrip()[0] == '#':
             continue
-        add_macro(*m.split('|',1))
+        add_macro(*m.strip().split('|',1))
 
 
 if __name__ == '__main__':
