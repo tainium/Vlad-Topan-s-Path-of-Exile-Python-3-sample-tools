@@ -1,15 +1,34 @@
 # see https://www.pathofexile.com/trade/about for the full list
+
+Apprentice Cartographer's Sextant = apprentice-sextant
 Blessed Orb = blessed
+Blessing of Chayula = blessing-chayula
+Blessing of Esh = blessing-esh
+Blessing of Tul = blessing-tul
+Blessing of Uul-Netol = blessing-uul-netol
+Blessing of Xoph = blessing-xoph
 Cartographer's Chisel = chisel
+Chromatic Orb = chrom
 Divine Orb = divine
 Eternal Orb = ete
 Exalted Orb = exa
+Gemcutter's Prism  = gcp
+Glassblower's Bauble = ba
+Jeweller's Orb = jew
+Journeyman Cartographer's Sextant = journeyman-sextant
+Master Cartographer's Sextant = master-sextant
 Mirror of Kalandra = mir
+Orb of Alchemy = alch
+Orb of Chance = chance
 Orb of Fusing = fuse
 Orb of Regret = regret
 Orb of Scouring = scour
 Perandus Coin = p
 Regal Orb = regal
 Silver Coin = silver
-Vaal Orb  = vaal
-
+Splinter of Chayula = splinter-chayula
+Splinter of Esh = splinter-esh
+Splinter of Tul = splinter-tul
+Splinter of Uul-Netol = splinter-uul-netol
+Splinter of Xoph = splinter-xoph
+Vaal Orb = vaal

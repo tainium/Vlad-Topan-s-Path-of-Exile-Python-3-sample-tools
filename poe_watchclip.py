@@ -21,7 +21,7 @@ CURR_MAP_FILE = 'currency-map.txt'
 
 # needed to map from the full names to the random-like shortcuts
 if os.path.isfile(CURR_MAP_FILE):
-    CURR_MAP = {e[0].strip():e[1].strip() for e in re.findall(r'([ \w]+)\s*=\s*(\w+)',
+    CURR_MAP = {e[0].strip():e[1].strip() for e in re.findall(r'([ \w\']+)\s*=\s*([-\w]+)',
         open(CURR_MAP_FILE).read())}
 else:
     CURR_MAP = {'Exalted Orb': 'exa'}
