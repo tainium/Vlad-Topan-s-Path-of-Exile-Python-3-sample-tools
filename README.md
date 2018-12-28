@@ -7,6 +7,8 @@
 Small (easily-readable) sample scripts which:
 - can assign macros to shortcuts (e.g. *F3* -> *go to hideout*)
 - interact with the [pathofexile.com/trade]() (internal?) API
+- watch client.txt for area changes
+- display an overlay over the game windows
 
 The code is brief to allow for easy reading / extending / altering.
 
