@@ -74,6 +74,19 @@ the site) is intended to be used in tools. If not, please let me know & I'll rem
 code.
 
 
+### poe_clienttxt.py
+
+Finds the location of the game log (client.txt) from the main window's handle (see the script's
+docstring for details) and watches it for area changes.
+
+
+### poe_overlay.py
+
+Shows an overlay on top of all windows (including the game's window if it's configured to be in one
+of "Windowed" or "Windowed full screen" modes). The overlay simply displays if the game is running
+or not (i.e. if a window called "Path of Exile" exists).
+
+
 ## Feedback
 
 Feedback is welcome either via email or on the issues page.
